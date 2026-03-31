@@ -2,12 +2,19 @@
   "name": "my-site",
   "version": "1.0.0",
   "description": "Simple web project",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "node app.js",
+    "dev": "nodemon app.js",
     "build": "echo \"No build step defined\"",
     "test": "echo \"No tests yet\""
   },
   "author": "Srinivas",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.14"
+  }
 }
